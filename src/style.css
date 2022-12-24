@@ -67,7 +67,7 @@ h3 {
 
 .project-logo-img {
   width: 160px;
-  margin-left: 88px;
+  margin: 0 auto;
 }
 .project-box {
   background-color: var(--color-secondary);
@@ -115,7 +115,7 @@ h3 {
     padding: 25px;
   }
   .project-logo-img {
-    width: 160px;
+    width: 120px;
     margin: 0 auto;
   }
 }
