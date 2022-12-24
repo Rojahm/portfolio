@@ -1,4 +1,69 @@
 :root {
   --font-primary: "Piazzolla", serif;
   --font-secondary: "Poppins", sans-serif;
+  --color-primary: #221818;
+  --color-secondary: rgba(255, 241, 221, 30%);
+}
+body {
+  background-color: var(--color-primary);
+}
+h1,
+h2,
+h3 {
+  font-family: var(--font-primary);
+}
+h1 {
+  font-weight: 700;
+}
+h2 {
+  font-weight: 600;
+  font-size: 24px;
+}
+h3 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 2;
+}
+.navbar {
+  margin: 5px 120px;
+}
+.navbar-collapse {
+  justify-content: flex-end;
+}
+.hero {
+  margin: 20px 90px;
+}
+.me {
+  width: 150px;
+  border-radius: 236px;
+}
+.hero-text {
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+  border-radius: 0 91.5px 91.5px 91.5px;
+  padding: 50px;
+  text-align: center;
+}
+.hero-paragraph {
+  font-family: var(--font-secondary);
+  line-height: 2;
+}
+@media (max-width: 500px) {
+  .navbar {
+    margin: 5px 20px;
+  }
+}
+@media (max-width: 800px) {
+  .navbar {
+    margin: 5px 20px;
+  }
+  .hero-text {
+    padding: 25px;
+  }
+  .hero {
+    margin: 35px 7px;
+  }
+  .avatar {
+    text-align: center;
+  }
 }
