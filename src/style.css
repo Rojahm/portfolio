@@ -37,6 +37,10 @@ h3 {
   width: 150px;
   border-radius: 236px;
 }
+.me-2 {
+  width: 50px;
+  border-radius: 236px;
+}
 .hero-text {
   background-color: var(--color-secondary);
   color: var(--color-primary);
@@ -47,6 +51,30 @@ h3 {
 .hero-paragraph {
   font-family: var(--font-secondary);
   line-height: 2;
+}
+.project-top {
+  font-family: var(--font-primary);
+  font-weight: 200;
+  font-size: 24px;
+  color: white;
+  opacity: 70%;
+  text-align: center;
+  padding-top: 60px;
+}
+.project-container {
+  margin: 20px 90px;
+}
+
+.project-logo-img {
+  width: 160px;
+  margin-left: 88px;
+}
+.project-box {
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+  border-radius: 0 91.5px 91.5px 91.5px;
+  padding: 50px;
+  text-align: center;
 }
 @media (max-width: 500px) {
   .navbar {
@@ -65,5 +93,19 @@ h3 {
   }
   .avatar {
     text-align: center;
+  }
+  .project-top {
+    padding-top: 10px;
+    font-size: 18px;
+  }
+  .project-container {
+    margin: 35px 7px;
+  }
+  .project-box {
+    padding: 25px;
+  }
+  .project-logo-img {
+    width: 160px;
+    margin: 0 auto;
   }
 }
