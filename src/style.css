@@ -76,6 +76,16 @@ h3 {
   padding: 50px;
   text-align: center;
 }
+.project-title {
+  font-weight: 700;
+  font-size: 36px;
+}
+.project-button {
+  color: var(--primary-color);
+  font-family: var(--font-primary);
+  font-weight: 700;
+  opacity: 80%;
+}
 @media (max-width: 500px) {
   .navbar {
     margin: 5px 20px;
@@ -107,5 +117,10 @@ h3 {
   .project-logo-img {
     width: 160px;
     margin: 0 auto;
+  }
+}
+@media (max-width: 767px) {
+  .project-title {
+    padding-top: 20px;
   }
 }
