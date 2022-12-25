@@ -113,6 +113,7 @@ h3 {
   }
   .project-box {
     padding: 25px;
+    margin-top: 10px;
   }
   .project-logo-img {
     width: 120px;
@@ -122,5 +123,10 @@ h3 {
 @media (max-width: 767px) {
   .project-title {
     padding-top: 20px;
+  }
+}
+@media (max-width: 990px) {
+  .project-box {
+    margin-top: 10px;
   }
 }
