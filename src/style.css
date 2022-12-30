@@ -26,6 +26,7 @@ h3 {
 }
 .navbar {
   margin: 5px 120px;
+  min-width: 300px;
 }
 .navbar-collapse {
   justify-content: flex-end;
@@ -41,7 +42,11 @@ h3 {
   width: 50px;
   border-radius: 236px;
 }
-.hero-text {
+.container {
+  min-width: 300px;
+}
+.hero-text,
+.about-text {
   background-color: var(--color-secondary);
   color: var(--color-primary);
   border-radius: 0 91.5px 91.5px 91.5px;
@@ -65,10 +70,12 @@ h3 {
   margin: 20px 90px;
 }
 
-.project-logo-img {
+.project-logo-img,
+.about-logo-img {
   width: 160px;
   margin: 0 auto;
 }
+
 .project-box {
   background-color: var(--color-secondary);
   color: var(--color-primary);
@@ -76,15 +83,46 @@ h3 {
   padding: 50px;
   text-align: center;
 }
-.project-title {
+.project-title,
+.about-title {
   font-weight: 700;
   font-size: 36px;
 }
-.project-button {
+.project-button,
+.about-button {
   color: var(--primary-color);
   font-family: var(--font-primary);
   font-weight: 700;
   opacity: 80%;
+  padding: 8px 20px;
+  margin-top: 10px;
+}
+.about-text {
+  max-width: 1000px;
+  margin: 0px auto;
+  position: relative;
+  top: -45px;
+  z-index: -1;
+  padding-bottom: 100px;
+}
+.about-logo-img {
+  position: relative;
+  top: 80px;
+}
+.about-me-img {
+  position: relative;
+  left: 100px;
+}
+.about-button-container {
+  text-align: center;
+  position: relative;
+  top: -140px;
+}
+@media (max-width: 1300px) {
+  .about-me-img {
+    position: unset;
+    left: unset;
+  }
 }
 @media (max-width: 500px) {
   .navbar {
@@ -118,6 +156,20 @@ h3 {
   .project-logo-img {
     width: 120px;
     margin: 0 auto;
+  }
+  .about-logo-img {
+    margin-bottom: 10px;
+    left: unset;
+    position: unset;
+  }
+  .about-text {
+    margin: 0px 20px;
+    padding-top: 70px;
+  }
+
+  .about-me-img {
+    position: unset;
+    left: unset;
   }
 }
 @media (max-width: 767px) {
