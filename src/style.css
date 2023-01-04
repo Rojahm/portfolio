@@ -45,12 +45,18 @@ h3 {
 .container {
   min-width: 300px;
 }
+
 .content-container {
   background-color: var(--color-secondary);
   color: var(--color-primary);
   border-radius: 0 91.5px 91.5px 91.5px;
   padding: 50px;
   text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.content {
+  font-family: var(--font-secondary);
 }
 .hero-paragraph {
   font-family: var(--font-secondary);
@@ -70,7 +76,7 @@ h3 {
 }
 
 .project-logo-img,
-.about-logo-img {
+.title-logo-img {
   width: 160px;
   margin: 0 auto;
 }
@@ -104,10 +110,7 @@ h3 {
   z-index: -1;
   padding-bottom: 100px;
 }
-.about-logo-img {
-  position: relative;
-  top: 80px;
-}
+
 .about-me-img {
   position: relative;
   left: 100px;
@@ -156,7 +159,7 @@ h3 {
     width: 120px;
     margin: 0 auto;
   }
-  .about-logo-img {
+  .title-logo-img {
     margin-bottom: 10px;
     left: unset;
     position: unset;
