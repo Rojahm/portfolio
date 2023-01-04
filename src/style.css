@@ -45,8 +45,7 @@ h3 {
 .container {
   min-width: 300px;
 }
-.hero-text,
-.about-text {
+.content-container {
   background-color: var(--color-secondary);
   color: var(--color-primary);
   border-radius: 0 91.5px 91.5px 91.5px;
