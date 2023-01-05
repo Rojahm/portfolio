@@ -120,6 +120,10 @@ h3 {
   position: relative;
   top: -140px;
 }
+.page-title {
+  color: white;
+  text-align: center;
+}
 @media (max-width: 1300px) {
   .about-me-img {
     position: unset;
