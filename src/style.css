@@ -124,6 +124,24 @@ h3 {
   color: white;
   text-align: center;
 }
+.contact-info-container {
+  display: flex;
+  margin-left: 100px;
+}
+.contact-info-title {
+  font-family: var(--font-primary);
+  font-size: 20px;
+}
+.contact-info {
+  margin-left: 20px;
+  margin-top: 3px;
+  text-decoration: none;
+  transition: all 200ms ease-in;
+  font-family: var(--font-secondary);
+}
+.contact-info:hover {
+  font-weight: bold;
+}
 @media (max-width: 1300px) {
   .about-me-img {
     position: unset;
@@ -176,6 +194,9 @@ h3 {
   .about-me-img {
     position: unset;
     left: unset;
+  }
+  .contact-info-container {
+    margin-left: unset;
   }
 }
 @media (max-width: 767px) {
